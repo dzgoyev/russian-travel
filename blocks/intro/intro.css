@@ -1,0 +1,20 @@
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__content-row/intro__content-row.css);
+@import url(../intro/__list/intro__list.css);
+@import url(../photo-grid/photo-grid.css);
+
+.intro {
+  max-width: 984px;
+  margin: auto;
+}
+
+@media (max-width: 1279px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+@media (max-width: 1023px) {
+  .intro {
+    max-width: 720px;
+  }
+}

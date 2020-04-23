@@ -1,0 +1,10 @@
+.footer__nav {
+  margin-bottom: 0;
+}
+
+@media (width: 768px) {
+  .footer__nav {
+    margin-bottom: 0;
+    margin-left: 23px;
+  }
+}

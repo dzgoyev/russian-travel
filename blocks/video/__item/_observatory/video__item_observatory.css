@@ -1,0 +1,22 @@
+.video__item_observatory {
+  background-image: url(../../../../images/video/observatory.jpg);
+}
+
+@media (max-width: 1190px) {
+  .video__item_observatory {
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 930px) {
+  .video__item_observatory {
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 719px) {
+  .video__item_observatory {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

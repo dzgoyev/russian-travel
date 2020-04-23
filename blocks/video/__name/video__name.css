@@ -1,0 +1,26 @@
+.video__name {
+  color: #fff;
+  max-width: 322px;
+  min-height: 73px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 0 30px 14px 30px;
+}
+
+@media (max-width: 937px) {
+  .video__name {
+    margin: 0 0 12px 24px;
+    font-size: 36px;
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video__name {
+    margin: 0px 16px -41px 24px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}

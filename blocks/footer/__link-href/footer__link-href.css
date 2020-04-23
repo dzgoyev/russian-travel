@@ -1,0 +1,9 @@
+.footer__link-href {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__link-href:hover {
+  transition: linear 0.3s;
+  opacity: 0.3;
+}

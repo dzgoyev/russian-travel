@@ -1,0 +1,23 @@
+.video__container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1184px;
+  justify-content: space-between;
+}
+
+@media (max-width: 1190px) {
+  .video__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 719px) {
+  .video__container {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 8px;
+  }
+}

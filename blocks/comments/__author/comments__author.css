@@ -1,0 +1,16 @@
+.comments__author {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .comments__author {
+    order: 2;
+    margin-bottom: 24px;
+    line-height: 24px;
+  }
+}

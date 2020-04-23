@@ -1,0 +1,17 @@
+.video__clock {
+  color: #fff;
+  min-height: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  margin: 0 0 12px 30px;
+}
+
+@media (max-width: 937px) {
+  .video__clock {
+    margin: 0 0 12px 24px;
+  }
+}

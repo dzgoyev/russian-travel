@@ -1,0 +1,30 @@
+.lead__caption {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 10.87px;
+  padding-top: 0;
+  color: #fff;
+}
+
+@media (max-width: 1439px) {
+  .lead__caption {
+    margin-top: 11.87px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .lead__caption {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead__caption {
+    margin-top: 16px;
+    margin-left: 24px;
+  }
+}

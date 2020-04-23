@@ -1,0 +1,27 @@
+.page {
+  background-color: #2a2c2f;
+  max-width: 100%;
+  font-family: "Inter", sans-serif, Arial, Helvetica;
+}
+
+/* Для обозначения границ */
+
+/* div,
+header,
+footer,
+section,
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li {
+  border: 1px solid red;
+} */
+
+/* @media (max-width: 1150px) {
+  .page {
+    max-width: 100%;
+  }
+} */

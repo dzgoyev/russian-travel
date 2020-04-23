@@ -1,0 +1,22 @@
+.comments__image {
+  display: block;
+  border-radius: 97px;
+  max-width: 97px;
+  max-height: 97px;
+  margin-bottom: 42px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .comments__image {
+    order: 1;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 374px) {
+  .comments__image {
+    margin-bottom: 17px;
+  }
+}

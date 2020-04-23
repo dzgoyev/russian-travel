@@ -1,0 +1,8 @@
+.place__website {
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    display: none;
+  }
+}
