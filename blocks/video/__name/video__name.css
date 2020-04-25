@@ -1,7 +1,7 @@
 .video__name {
   color: #fff;
   max-width: 322px;
-  min-height: 73px;
+  min-height: 73px; /*Высота нужна тут - это блочный элемент*/
   font-style: normal;
   font-weight: 900;
   font-size: 36px;

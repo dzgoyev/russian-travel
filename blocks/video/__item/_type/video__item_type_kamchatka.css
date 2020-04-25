@@ -1,21 +1,21 @@
-.video__item_kamchatka {
+.video__item_type_kamchatka {
   background-image: url(../../../../images/video/kamchatka.jpg);
 }
 
 @media (max-width: 1190px) {
-  .video__item_kamchatka {
+  .video__item_type_kamchatka {
     margin-left: 48px;
   }
 }
 
 @media (max-width: 937px) {
-  .video__item_kamchatka {
+  .video__item_type_kamchatka {
     margin-left: 24px;
   }
 }
 
 @media (max-width: 719px) {
-  .video__item_kamchatka {
+  .video__item_type_kamchatka {
     margin-left: 0;
     margin-right: 0;
   }

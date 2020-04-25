@@ -3,7 +3,8 @@
   font-weight: normal;
   color: #fff;
   max-width: 683px;
-  font-size: 14px;
+  /* font-size: 14px; Так у меня в скачанном макете !!!*/
+  font-size: 16px;
   line-height: 24px;
   margin: 27px auto 0 0;
 }
@@ -11,7 +12,7 @@
 @media (max-width: 449px) {
   .intro__content-row {
     max-width: 343px;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 27px;
     margin: 32px auto 0;
   }

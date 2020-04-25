@@ -16,10 +16,8 @@
           alt="Путешествия по России"
         />
         <nav class="header__lang">
-          <a href="#" class="header__lang header__link header__link_active"
-            >Ru</a
-          >
-          <a href="#" class="header__lang header__link">En</a>
+          <a href="#" class="header__link header__link_active">Ru</a>
+          <a href="#" class="header__link">En</a>
         </nav>
       </header>
       <!-- Lead-->
@@ -52,14 +50,26 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li><span class="intro__text-bold">Часовых поясов</span> 11</li>
+          <li>
+            <span class="intro__text-bold"
+              >Объектов природного наследия ЮНЕСКО</span
+            >
+            12
+          </li>
+          <li>
+            <span class="intro__text-bold"
+              >Объектов культурного наследия ЮНЕСКО</span
+            >
+            16
+          </li>
+          <li>
+            <span class="intro__text-bold">Природных заповедников</span> 105
+          </li>
+          <li><span class="intro__text-bold">Аэропортов</span> 241</li>
         </ul>
       </section>
-      <!-- Photo-grid -->
+      <!-- Photo-grid. Валидатор указывает использовать заголовки, но их тут нет по макету. Использовать div не по семантике. -->
       <section class="photo-grid">
         <img
           src="./images/photo-grid/photo-grid-train.jpg"
@@ -128,7 +138,7 @@
           <div class="place__header">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url">URL</p>
+              <p class="place__url">url</p>
               <a class="place__domen" href="http://park-kosa.ru" target="_blank"
                 >park-kosa.ru</a
               >
@@ -163,8 +173,11 @@
           <div class="place__header">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url">URL</p>
-              <a class="place__domen" href="#" target="_blank"
+              <p class="place__url">url</p>
+              <a
+                class="place__domen"
+                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                target="_blank"
                 >National Geographic</a
               >
             </div>
@@ -198,8 +211,13 @@
           <div class="place__header">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__url">URL</p>
-              <a class="place__domen" href="#" target="_blank">Facebook</a>
+              <p class="place__url">url</p>
+              <a
+                class="place__domen"
+                href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                target="_blank"
+                >Facebook</a
+              >
             </div>
           </div>
           <div class="place__content">
@@ -231,7 +249,7 @@
           <div class="place__header">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url">URL</p>
+              <p class="place__url">url</p>
               <a
                 class="place__domen"
                 href="https://vk.com/baikalmile"
@@ -268,7 +286,7 @@
           <div class="place__header">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url">URL</p>
+              <p class="place__url">url</p>
               <a
                 class="place__domen"
                 href="http://vodlozero.ru/"
@@ -310,17 +328,26 @@
           фундаментальные исследования
         </p>
         <div class="video__container">
-          <div class="video__item video__item_kamchatka">
+          <div class="video__item video__item_type_kamchatka">
             <!-- Вложил все в одну ссылку  -->
-            <a href="#" class="video__link" target="_blank">
+            <a
+              href="https://vimeo.com/81106671"
+              class="video__link"
+              target="_blank"
+            >
               <span class="video__icon-play"></span>
               <p class="video__clock">6:30</p>
               <h4 class="video__name">Colors of Kamchatka</h4>
+              <!--Это блочный эелемент - высоту ему оставил -->
               <p class="video__author-name">Director: Pavel Karykhalin</p>
             </a>
           </div>
-          <div class="video__item video__item_observatory">
-            <a href="#" class="video__link" target="_blank">
+          <div class="video__item video__item_type_observatory">
+            <a
+              href="https://vimeo.com/290675450"
+              class="video__link"
+              target="_blank"
+            >
               <span class="video__icon-play"></span>
               <p class="video__clock">24:45</p>
               <h4 class="video__name video__name_observatory">
@@ -381,8 +408,12 @@
       </section>
       <!-- Cover -->
       <section class="cover">
-        <a href="#" class="cover__link" target="__blank">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="cover__link"
+          target="_blank"
+        >
+          <h2 class="cover__title">До &nbsp;Байкала &nbsp;«на&nbsp;собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе и iframes — путешествие от
             столицы до Байкала на электричках.
@@ -394,23 +425,33 @@
         <nav class="footer__nav">
           <ul class="footer__link">
             <li class="footer__link-item">
-              <a href="#" class="footer__link-href">Карты</a>
+              <a href="https://yandex.ru/maps" class="footer__link-href"
+                >Карты</a
+              >
             </li>
             <li class="footer__link-item">
-              <a href="#" class="footer__link-href">Погода</a>
+              <a href="https://yandex.ru/pogoda" class="footer__link-href"
+                >Погода</a
+              >
             </li>
             <li class="footer__link-item">
-              <a href="#" class="footer__link-href">Расписание</a>
+              <a href="https://rasp.yandex.ru" class="footer__link-href"
+                >Расписание</a
+              >
             </li>
             <li class="footer__link-item">
-              <a href="#" class="footer__link-href">Календарь</a>
+              <a href="https://calendar.yandex.ru" class="footer__link-href"
+                >Календарь</a
+              >
             </li>
             <li class="footer__link-item">
-              <a href="#" class="footer__link-href">Путешествия</a>
+              <a href="https://travel.yandex.ru" class="footer__link-href"
+                >Путешествия</a
+              >
             </li>
           </ul>
         </nav>
-        <p class="footer__copyright">© 2020. OLEG DZGOYEV</p>
+        <p class="footer__copyright">&copy; 2020. OLEG DZGOYEV</p>
       </footer>
     </div>
   </body>

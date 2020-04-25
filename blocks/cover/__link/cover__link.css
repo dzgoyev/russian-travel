@@ -1,26 +1,25 @@
 .cover__link {
   max-width: 1184px;
   background-image: url(../../../images/cover/cover-trains.jpg);
-
   background-size: cover;
   background-blend-mode: multiply;
   text-decoration: none;
-  padding-top: 295px;
+  padding-top: 230px;
   display: block;
   position: relative;
 }
 
 .cover__link:not(:hover) {
   background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .cover__link:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #2a2c2f;
   transition: 0.3s;
 }
 
 @media (max-width: 786px) {
   .cover__link {
-    padding-top: 0;
+   padding-top: 0;
   }
 }

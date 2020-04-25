@@ -2,6 +2,7 @@
 @import url(../intro/__content-row/intro__content-row.css);
 @import url(../intro/__list/intro__list.css);
 @import url(../photo-grid/photo-grid.css);
+@import url(../intro/__text-bold/intro__text-bold.css);
 
 .intro {
   max-width: 984px;

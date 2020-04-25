@@ -1,5 +1,6 @@
 .place__content {
   display: flex;
+  display: -webkit-box;
 }
 
 @media (max-width: 1023px) {
